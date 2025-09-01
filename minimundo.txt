@@ -1,0 +1,72 @@
+Minimundo: Análise da Relação entre Riqueza (PIB) e IDH de Países
+
+1. Entidades Centrais (Dimensões Principais)
+Estas tabelas formam a base descritiva do nosso minimundo. Elas raramente mudam e fornecem o contexto para os dados.
+
+[Continentes] (Chave: ContinenteID)
+A entidade mais alta na hierarquia geográfica.
+Relacionamento: Um Continente pode ter Muitas Regioes.
+
+[Regioes] (Chave: RegiaoID)
+Agrupa países em sub-regiões.
+Relacionamento: Uma Regiao pertence a Um Continente.
+Relacionamento: Uma Regiao pode ter Muitos Paises.
+
+[Paises] (Chave: PaisID)
+A tabela de dimensão central. Cada país é um registro único e serve como o elo para todas as tabelas de métricas.
+Relacionamento: Um Pais pertence a Uma Regiao.
+Relacionamento: Um Pais tem Um registro de Geografia.
+Relacionamento: Um Pais tem Muitos registros de métricas anuais (ex: ObservacoesAnuaisBasicas, MetricasEconomicas, etc.).
+
+[Geografia] (Chave: GeografiaID)
+Contém atributos estáticos de um país.
+Relacionamento: Um-para-Um com a tabela Paises. Cada registro aqui corresponde a exatamente um país.
+
+2. Entidades de Fatos (Métricas e Indicadores)
+Estas tabelas contêm os dados que serão analisados. Elas se conectam diretamente à tabela Paises (e geralmente incluem uma dimensão de tempo, como a coluna Ano), permitindo consultas e agregações poderosas.
+
+Detalhamento Estruturado das Tabelas e Relações
+Grupo 1: Estrutura Geográfica e Identificação
+
+Continentes
+- ContinenteID (PK)
+- NomeContinente
+
+Regioes
+- RegiaoID (PK)
+- NomeRegiao
+- ContinenteID (FK -> Continentes.ContinenteID)
+
+Paises
+- PaisID (PK)
+- NomePais
+- CodigoISO_Alpha3
+- RegiaoID (FK -> Regioes.RegiaoID)
+
+Geografia
+- GeografiaID (PK)
+- PaisID (FK, Único -> Paises.PaisID)
+- AreaKm2
+- DensidadePopulacional
+
+Grupo 2: Métricas Anuais Agrupadas por Tema
+Todas as tabelas a seguir têm um relacionamento Um-para-Muitos com a tabela Paises. Um país pode ter muitas entradas anuais, mas cada entrada pertence a um único país.
+
+Tabelas de Métricas Gerais:
+- ObservacoesAnuaisBasicas: ObservacaoID (PK), PaisID (FK), Ano, PopulacaoTotal, PIB_PerCapita, ExpectativaDeVida.
+- DesenvolvimentoHumano: IDH_ID (PK), PaisID (FK), Ano, ValorIDH.
+
+Tabelas de Métricas Econômicas:
+- MetricasEconomicas: MetricaEconomicaID (PK), PaisID (FK), Ano, PIB_Nominal_USD, PIB_PPC_USD, TaxaInflacaoAnual, TaxaDesemprego.
+- EstruturaEconomica: EstruturaEconomicaID (PK), PaisID (FK), Ano, PIB_Agricultura_perc, PIB_Industria_perc, PIB_Servicos_perc.
+
+Tabelas de Métricas Sociais e de Saúde:
+- MetricasSaude: MetricaSaudeID (PK), PaisID (FK), Ano, GastoComSaude_perc_PIB, TaxaMortalidadeInfantil.
+- DadosDemograficos: DemografiaID (PK), PaisID (FK), Ano, TaxaNatalidade, TaxaMortalidade, TaxaFertilidade, IdadeMediana.
+- IndicadoresEducacionais: IndicadorEducacionalID (PK), PaisID (FK), Ano, TaxaAlfabetizacao, GastoComEducacao_perc_PIB.
+- QualidadeDeVida: QualidadeVidaID (PK), PaisID (FK), Ano, AcessoEletricidade_perc_Pop, TaxaHomicidios.
+
+Tabelas de Métricas Ambientais e Tecnológicas:
+- DadosAmbientais: DadoAmbientalID (PK), PaisID (FK), Ano, EmissaoCO2_Ton, AreaFlorestal_perc_Total.
+- AcessoTecnologia: TecnologiaID (PK), PaisID (FK), Ano, UsuariosInternet_perc_Pop.
+- FontesEnergia: EnergiaID (PK), PaisID (FK), Ano, ConsumoEnergia_PerCapita, ProducaoEletricidade_FontesRenovaveis_perc.
