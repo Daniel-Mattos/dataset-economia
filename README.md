@@ -1,10 +1,23 @@
-# dataset-economia 
-## Projeto final: Engenharia e Análise de dados com T-SQL. Os dados utilizados de geolocalização e econômicos de todas as cidades do Brasil. Todos os dados foram extraídos do site do IBGE com webscraping.
+# Projeto final: Dataset de Geolocalização e Economia. 
 
-## Planner:
+## Objetivo 
+Responder a pergunta - **Países que tem maior riqueza têm necessariamente maior IDH? Quais fatores podem ser revelantes a essa análise?** - baseando-se em data-sets que apresentam informações sobre expectativa de vida, produção de CO2, taxa de natalidade
+
+## :warning: Planner 
+[GitProjects](https://github.com/Daniel-Mattos/dataset-economia/projects?query=is%3Aopen.)
+
+## Processo de extração de dataset
+Os dados foram retirados da plataforma Kagger e foram baixados os arquivos com a extensão .csv
+
+[Kaggle Gapminder](https://www.kaggle.com/datasets/albertovidalrod/gapminder-dataset/data)
+
+[Kaggle Global Socioeconômico](https://www.kaggle.com/datasets/toriqulstu/global-socio-economic-and-environmental-indicators)
+
+[Kaggle Metricas globais](https://www.kaggle.com/datasets/prashantdhanuk/global-country-metrics-2025-hdi-gdp-pop-area/data) 
+
+## Fase 1 :triangular_flag_on_post: : Planejamento 
 
 ### Semana 1: Kick-off e Análise Exploratória
-- **Tema**: Quais os fatores mais comuns que geram ineficiência ou atraso em projetos governamentais.
 - Levantamento de datasets com base em dados do IBGE
 - Criação do repositório no GitHub e organização do Planner de tarefas. .
 
@@ -18,7 +31,7 @@
 - **Foco**: Implementação do modelo fisico no SQL Server
 - Definição de dados, constraints(chave primarias, estrangeiras, unique)
 
-## Fase 2: Estruturação, ETL e Carga (Semanas 4-6)
+## Fase 2 :triangular_flag_on_post: : Estruturação, ETL e Carga (Semanas 4-6)
 
 ### Semana 4: Construção do Banco (DDL)
 - **Foco**: Criar e estruturar o banco de dados.  
@@ -55,7 +68,7 @@
   - Scripts das consultas DQL.  
   - Relatórios exploratórios iniciais. 
 
-## Fase 3: Otimização e Análise (Semanas 7-10)
+## Fase 3 :triangular_flag_on_post: : Otimização e Análise (Semanas 7-10)
 
 ### Semana 7: Views e Índices
 - **Foco**: Criar estruturas que otimizem e simplifiquem as consultas analíticas.  
@@ -97,7 +110,7 @@
   - Documentação de perfis e permissões.  
   - Testes de acesso e restrições.
 
-## Fase 4: Finalização e Entrega (Semanas 11-13)
+## Fase 4 :triangular_flag_on_post: : Finalização e Entrega (Semanas 11-13)
 
 ### Semana 11: Documentação e (Opcional) Dashboard
 - **Foco**: Consolidar a documentação e iniciar a camada de visualização.  
@@ -126,9 +139,3 @@
   - Apresentação realizada.  
   - Feedback documentado.  
   - Relatório final de insights.
-
-  Felipe
-
-https://www.kaggle.com/datasets/gabrielrs3/economy-and-population-of-cities-in-brazil-ibge
-https://www.kaggle.com/datasets/inquisitivecrow/crime-data-in-brazil
-https://www.kaggle.com/datasets/bushraqurban/global-urbanization-and-climate-metrics
