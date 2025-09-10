@@ -1,7 +1,20 @@
 # Projeto final: Dataset de Geolocalização e Economia. 
 
 ## Objetivo 
-Responder a pergunta - **Países que tem maior riqueza têm necessariamente maior IDH? Quais fatores podem ser revelantes a essa análise?** - baseando-se em data-sets que apresentam informações sobre expectativa de vida, produção de CO2, taxa de natalidade
+Responder as perguntas 
+**Países que tem maior riqueza têm necessariamente maior IDH? Quais fatores podem ser revelantes a essa análise?** - baseando-se em data-sets que apresentam informações 
+
+**Podemos prever a expectativa de vida de um país olhando para sua economia e demografia?**
+
+**O desenvolvimento econômico inevitavelmente leva à degradação ambiental?**
+
+**Investir em saúde é mais "eficiente" do que focar apenas no crescimento do PIB para melhorar o IDH?**
+
+**Utilizando um indicador como o Coeficiente de Gini (se disponível), é possível correlacionar a desigualdade de renda com indicadores de instabilidade política ou baixos índices de felicidade e bem-estar?**
+
+**Existe uma relação entre a matriz energética de um país (dependência de combustíveis fósseis vs. energias renováveis) e seu desempenho em indicadores de desenvolvimento sustentável, que poderiam incluir emissões de CO2, qualidade do ar e IDH?**
+
+**Países com maior taxa de escolaridade feminina apresentam uma menor taxa de natalidade? Como a renda per capita influencia essa dinâmica?**
 
 ## :warning: Planner 
 [GitProjects](https://github.com/Daniel-Mattos/dataset-economia/projects?query=is%3Aopen.)
