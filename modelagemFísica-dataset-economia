@@ -1,0 +1,626 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.2.0">
+  <diagram name="Página-2" id="iZ1hMb6-EVZJ42STFTCR">
+    <mxGraphModel dx="3312" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EElzx-w2xTztCbhaW4B8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" target="EElzx-w2xTztCbhaW4B8-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1557.5" y="2095" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1557.5" y="2120" />
+              <mxPoint x="1657.5" y="2120" />
+              <mxPoint x="1657.5" y="2248" />
+              <mxPoint x="1787.5" y="2248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERmandOne;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-8" target="EElzx-w2xTztCbhaW4B8-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1506.5" y="2510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-8" target="EElzx-w2xTztCbhaW4B8-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-8" target="EElzx-w2xTztCbhaW4B8-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-8" target="EElzx-w2xTztCbhaW4B8-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1406.5" y="2039.99" as="sourcePoint" />
+            <mxPoint x="670" y="2114.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="697.5" y="2041" />
+              <mxPoint x="697.5" y="2115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-8" target="EElzx-w2xTztCbhaW4B8-132">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1357.5" y="2067" />
+              <mxPoint x="1357.5" y="2303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-8" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="1406.5" y="1985" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-9" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1466.5" y="1960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-10" value="PaisID INT&amp;nbsp;IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1426.5" y="1985" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-11" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1406.5" y="1980" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-12" value="NomePais NVARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1426.5" y="2030" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-13" value="CodigoISO_Alpha3 CHAR(3)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1426.5" y="2050" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-14" value="RegiaoID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1426.5" y="2005" width="80" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-11" target="EElzx-w2xTztCbhaW4B8-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1337.5" y="1987" />
+              <mxPoint x="1337.5" y="1711" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-19" target="EElzx-w2xTztCbhaW4B8-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1487.5" y="1448" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-19" target="EElzx-w2xTztCbhaW4B8-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-19" target="EElzx-w2xTztCbhaW4B8-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-19" value="Países" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1406.5" y="1965" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-21" target="EElzx-w2xTztCbhaW4B8-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1036.5" y="2013" />
+              <mxPoint x="1036.5" y="2000" />
+              <mxPoint x="687.5" y="2000" />
+              <mxPoint x="687.5" y="1955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-21" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1406.5" y="1997.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-22" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="2114.5" y="2235" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-23" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2174.5" y="2210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-24" value="ContinentesID INT&amp;nbsp;IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2134.5" y="2235" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-25" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2114.5" y="2230" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-26" value="NomeContinente NVARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2134.5" y="2257.5" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-27" value="Continentes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2114.5" y="2215" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-29" target="EElzx-w2xTztCbhaW4B8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-29" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2245" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-30" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1847.5" y="2220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-31" value="RegiaoID INT&amp;nbsp;IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1807.5" y="2245" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-32" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2240" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-33" value="NomeRegiao NVARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1807.5" y="2290" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-34" value="ContinenteID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1807.5" y="2265" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-35" value="Regiões" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2225" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-36" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2257.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-37" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="2455" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-38" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1837.5" y="2430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-39" value="GeografiaID INT&amp;nbsp;IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1797.5" y="2455" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-40" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="2450" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-41" value="AreaKm2 DECIMAL(15,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1797.5" y="2500" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-42" value="DensidadePopulacional DECIMAL(10,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1797.5" y="2520" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-43" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1797.5" y="2475" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-44" value="Geografia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="2435" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-45" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="2467.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="EElzx-w2xTztCbhaW4B8-47" target="EElzx-w2xTztCbhaW4B8-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-47" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1615" width="250" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-48" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1817.5" y="1590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-49" value="ObservacaoID INT&amp;nbsp;IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1615" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-50" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1610" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-51" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1660" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-52" value="PopulacaoTotal BIGINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1680" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-53" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1635" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-54" value="ObservacoesAnuaisBasicas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1595" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-55" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1627.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-56" value="PIB_PerCapita DECIMAL(15,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1710" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-57" value="ExpectativaDeVida DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1740" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-58" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="1767.5" y="2010" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-59" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1827.5" y="1985" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-60" value="IDH_ID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2010" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-61" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1767.5" y="2005" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-62" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2055" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-63" value="ValorIDH DECIMAL(4,3)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2075" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-64" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2030" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-65" value="DesenvolvimentoHumano" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1767.5" y="1990" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-66" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1767.5" y="2022.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-67" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="1665" width="250" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-68" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-69" value="MetricaEconomicaID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1665" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-70" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="1660" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-71" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1710" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-72" value="PIB_Nominal_USD DECIMAL(18,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1730" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-73" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1685" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-74" value="MetricasEconomicas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="1645" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-75" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="1677.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-76" value="PIB_PPC_USD DECIMAL(18,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1760" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-77" value="TaxaInflacaoAnual DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1790" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-78" value="TaxaDesemprego DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1820" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-79" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1365" width="270" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-80" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1817.5" y="1340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-81" value="EstruturaEconomicaID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1365" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-82" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1360" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-83" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1410" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-84" value="PIB_Agricultura_perc DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1430" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-85" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1385" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-86" value="EstruturaEconomica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1345" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-87" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="1377.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-88" value="PIB_Industria_perc DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1460" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-89" value="PIB_Servicos_perc DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="1490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-90" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="2670" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-91" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="2645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-92" value="MetricaSaudeID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="2670" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-93" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="2665" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-94" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="2715" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-95" value="GastoComSaude_perc_PIB DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="2735" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-96" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="2690" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-97" value="MetricasSaude" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="2650" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-98" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="2682.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-99" value="TaxaMortalidadeInfantil DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="2765" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-100" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2417.5" width="250" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-101" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2392.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-102" value="DemografiaID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2417.5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-103" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2412.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-104" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2462.5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-105" value="TaxaNatalidade DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2482.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-106" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2437.5" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-107" value="DadosDemograficos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2397.5" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-108" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2430" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-109" value="TaxaMortalidade DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2512.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-110" value="TaxaFertilidade DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2542.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-111" value="IdadeMediana DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2572.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-112" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1890" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-113" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="1865" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-114" value="IndicadorEducacionalID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1890" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-115" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1885" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-116" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1935" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-117" value="TaxaAlfabetizacao DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1955" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-118" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1910" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-119" value="IndicadoresEducacionais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1870" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-120" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1902.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-121" value="GastoComEducacao_perc_PIB DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1985" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-122" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2080" width="285" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-123" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="2055" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-124" value="QualidadeVidaID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2080" width="205" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-125" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2075" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-126" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2125" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-127" value="AcessoEletricidade_perc_Pop DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2145" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-128" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2100" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-129" value="QualidadeDeVida" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2060" width="285" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-130" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2092.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-131" value="TaxaHomicidios DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2175" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-132" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2240" width="250" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-133" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-134" value="DadoAmbientalID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2240" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-135" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2235" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-136" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2285" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-137" value="EmissaoCO2_Ton DECIMAL(18,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2305" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-138" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2260" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-139" value="DadosAmbientais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2220" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-140" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2252.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-141" value="AreaFlorestal_perc_Total DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="2335" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-142" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1535" width="260" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-143" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="1510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-144" value="TecnologiaID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1535" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-145" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1530" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-146" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1580" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-147" value="UsuariosInternet_perc_Pop DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1600" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-148" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1555" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-149" value="AcessoTecnologia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1515" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-150" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1547.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-151" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=40;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1365" width="365" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-152" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-153" value="EnergiaID INT IDENTITY(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1365" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-154" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1360" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-155" value="Ano SMALLINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1410" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-156" value="ConsumoEnergia_PerCapita DECIMAL(15,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1430" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-157" value="PaisID INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1385" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-158" value="FontesEnergia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1345" width="365" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-159" value="FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1377.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-160" value="ProducaoEletricidade_FontesRenovaveis_perc DECIMAL(5,2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1460" width="345" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-161" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="75" width="230" height="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-162" value="ISO3 CHAR(3) NOT NULL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="917.5" y="75" width="152.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-163" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="70" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-164" value="&lt;div&gt;Country NVARCHAR(100)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hdi_code NVARCHAR(20)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;region NVARCHAR(50)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hdi_rank_2021 INT&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;co2_prod_1990 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1991 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1992 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1993 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1994 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1995 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1996 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1997 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1998 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_1999 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2000 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2001 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2002 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2003 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2004 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2005 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2006 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2007 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2008 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2009 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2010 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2011 DECIMAL(18,6)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2012 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2013 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2014 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2015 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2016 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2017 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2018 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2019 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2020 DECIMAL(18,6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;co2_prod_2021 DECIMAL(18,6)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="927.5" y="350" width="252.5" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-165" value="EmissoesCO2_Wide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="50" width="230" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-166" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="405" width="300" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-167" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1233" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-168" value="Country_Name NVARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1193" y="405" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-169" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="400" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-170" value="&lt;div&gt;Population BIGINT NULL&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;GDP_Nominal_USD DECIMAL(18,2)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;GDP_Nominal_PerCapita_USD DECIMAL(18,2)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;GDP_PPP_PerCapita_USD DECIMAL(18,2)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;HDI DECIMAL(4,3)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;GINI DECIMAL(5,2)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Area_SqKm BIGINT&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1197.5" y="460" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-171" value="IndicadoresPais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="385" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-172" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="65" width="223.5" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-173" value="Países" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1233" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-174" value="Id INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1193" y="65" width="53.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-175" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="60" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-176" value="IndicadoresAno" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="45" width="223.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-177" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Country NVARCHAR(100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Continent NVARCHAR(50)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Year INT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Life_Exp DECIMAL(5,2)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;HDI_Index DECIMAL(5,3)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;CO2_Consump DECIMAL(10,4)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;GDP DECIMAL(18,2)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Services DECIMAL(5,2)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1196.5" y="130" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-178" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="620" y="65" width="207.5" height="975" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-179" value="ISO3 CHAR(3) NOT NULL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="65" width="152.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-180" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-181" value="&lt;p class=&quot;MsoNormal&quot;&gt;Country NVARCHAR(100)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_code NVARCHAR(20)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;region NVARCHAR(50)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_rank_2021 INT&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1990 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1991 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1992 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1993 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1994 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1995 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1996 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1997 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1998 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_1999 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2000 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2001 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2002 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2003 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2004 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2005 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2006 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2007 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2008 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2009 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2010 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2011 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2012 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2013 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2014 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2015 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2016 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2017 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2018 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2019 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;gnipc_2020 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gnipc_2021 DECIMAL(18,6)&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="300" width="252.5" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-182" value="GNIPC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="207.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-183" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="65" width="207.5" height="985" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-184" value="ISO3 CHAR(3) NOT NULL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="65" width="152.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-185" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-186" value="DesenvolvimentoHumano" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="207.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-187" value="&lt;p class=&quot;MsoNormal&quot;&gt;Country NVARCHAR(100)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_code NVARCHAR(20)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;region NVARCHAR(50)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_rank_2021 INT&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1990 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1991 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1992 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1993 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1994 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1995 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1996 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1997 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1998 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_1999 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2000 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2001 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2002 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2003 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2004 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2005 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2006 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2007 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2008 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2009 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2010 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2011 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2012 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2013 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2014 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2015 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2016 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2017 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2018 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2019 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_2020 DECIMAL(18,6)&lt;/p&gt;&lt;span style=&quot;font-size:12.0pt;line-height:115%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:PT-BR;mso-fareast-language:&lt;br/&gt;EN-US;mso-bidi-language:AR-SA&quot;&gt;hdi_2021 DECIMAL(18,6)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="366.25" y="100" width="177.5" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-188" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=20;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="207.5" height="985" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-189" value="ISO3 CHAR(3) NOT NULL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="65" width="152.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-190" value="PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-191" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p class=&quot;MsoNormal&quot;&gt;Country NVARCHAR(100)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_code NVARCHAR(20)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;region NVARCHAR(50)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;hdi_rank_2021 INT&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1990 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1991 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1992 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1993 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1994 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1995 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1996 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1997 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1998 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_1999 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2000 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2001 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2002 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2003 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2004 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2005 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2006 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2007 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2008 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2009 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2010 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2011 DECIMAL(18,6)&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2012 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2013 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2014 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2015 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2016 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2017 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2018 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2019 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2020 DECIMAL(18,6)&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;le_2021 DECIMAL(18,6)&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="177.5" height="915" as="geometry" />
+        </mxCell>
+        <mxCell id="EElzx-w2xTztCbhaW4B8-192" value="ExpectativaVida" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="207.5" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
