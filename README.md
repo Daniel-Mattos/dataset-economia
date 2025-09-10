@@ -1,21 +1,32 @@
 # Projeto final: Dataset de Geolocalização e Economia. 
 
 ## Objetivo 
-Responder as perguntas 
-**Países que tem maior riqueza têm necessariamente maior IDH? Quais fatores podem ser revelantes a essa análise?** - baseando-se em data-sets que apresentam informações 
-
+Temos como objetivo do projeto levantar parametros que definem aspectos de um país como PIB per capita, desigualdade social, problemas ambientais. Baseando-se em data sets que promovem dados que nos ajudam a criar os seguintes questionamentos:
+**Países que tem maior riqueza têm necessariamente maior IDH?**
+Expectativas de resultados:
+- Explorar relação do PIB per capita e IDH
+- Componentes (Renda, educação, Longevidade) do IDH podem divergir do PIB
+- Efeito de desigualdade
+- Classificar países em grupos de acordo com IDH
 **Podemos prever a expectativa de vida de um país olhando para sua economia e demografia?**
-
+- Escolaridade e PIB per capita se correlacionam com expectativa de vida]
+- Taxa de mortalidade infantil são levantamentos fortemente negativos
 **O desenvolvimento econômico inevitavelmente leva à degradação ambiental?**
-
+- Analisar os estágios iniciais do crescimento econômico e sua correlação com a degradação ambiental
+- Visualizar qual o nível de renda per capita é possivel investir em proteção e qual causa mais danos 
 **Investir em saúde é mais "eficiente" do que focar apenas no crescimento do PIB para melhorar o IDH?**
-
+- Investimento como porcentagem do PIB melhora diretamente o PIB
+- Países com PIB médio e alto IDH geralmente investem significativamente em saúde
 **Utilizando um indicador como o Coeficiente de Gini (se disponível), é possível correlacionar a desigualdade de renda com indicadores de instabilidade política ou baixos índices de felicidade e bem-estar?**
-
+- Alto Gini tendem a apresentar maior instabilidade política e social
+- Índices de felicidade/satisfação de vida se correlacionam com a desigualdade social e ou de renda, reduzindo a confiança em instituições gorvernamentais
 **Existe uma relação entre a matriz energética de um país (dependência de combustíveis fósseis vs. energias renováveis) e seu desempenho em indicadores de desenvolvimento sustentável, que poderiam incluir emissões de CO2, qualidade do ar e IDH?**
-
+- Dependência de combustíveis fósseis tendem a ter maiores emissões de CO2
+- Melhores pontuações em índices da ONU vindo de matrizes energéticas mais limpas
+- Correlacionamento entre energia limpa e IDH alto
 **Países com maior taxa de escolaridade feminina apresentam uma menor taxa de natalidade? Como a renda per capita influencia essa dinâmica?**
-
+- Correlação de escolaridade com alta taxa de natalidade em países sub-desenvolvidos
+- Aplicação do PIB per capita amplifica esse efeito
 ## :warning: Planner 
 [GitProjects](https://github.com/Daniel-Mattos/dataset-economia/projects?query=is%3Aopen.)
 
@@ -36,10 +47,8 @@ Os dados foram retirados da plataforma Kagger e foram baixados os arquivos com a
 
 ### Semana 2: Requisitos e Plano de Análise
 - **Foco**: Criação de um modelo logico pensando em cada uma das entidades presentes no dataset.
-- Levantamento de questionamentos sobre o data base:
-    - Projetos atrasam mais por falhas de orçamento ou por problemas de gestão?  
-    - Existe relação entre região/estado e maiores índices de atraso? 
-
+- Levantamento de questionamentos sobre o data base
+- 
 ### Semana 3: Modelagem Física
 - **Foco**: Implementação do modelo fisico no SQL Server
 - Definição de dados, constraints(chave primarias, estrangeiras, unique)
@@ -152,3 +161,4 @@ Os dados foram retirados da plataforma Kagger e foram baixados os arquivos com a
   - Apresentação realizada.  
   - Feedback documentado.  
   - Relatório final de insights.
+
