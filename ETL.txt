@@ -1,0 +1,50 @@
+Plano de ETL Geral
+Este é um roteiro para ser adaptado em cada uma das suas stored procedures.
+
+1- Criação das Tabelas de Staging (Extração)
+
+Extrair os dados dos arquivos .csv e carregá-los em tabelas temporárias (ou "staging tables") no seu banco de dados. Isso é um passo crucial de segurança e performance, pois você trabalhará com uma cópia dos dados brutos.
+
+2- Transformação dos Dados
+
+Limpeza e Padronização: Corrigir nomes de colunas, remover espaços em branco, padronizar o formato de datas e garantir que os nomes dos países sejam consistentes em todos os datasets para permitir a união dos dados.
+
+União (Joins): Juntar as tabelas de staging com base em chaves comuns (como o nome do país ou o ano) para criar conjuntos de dados que combinem as variáveis que você precisa para cada análise (ex: PIB e IDH).
+
+Tratamento de Nulos: Lidar com valores ausentes ou nulos, decidindo se eles devem ser descartados ou preenchidos.
+
+Cálculos e Agregações: Criar novas colunas com base em cálculos (como PIB per capita) ou agregar dados por ano/país.
+
+Classificação: Implementar lógicas para classificar países em grupos (ex: grupos de IDH ou Gini).
+
+3- Carga (Load)
+
+Carregar os dados transformados em uma tabela final, otimizada para suas análises e visualizações. Esta tabela será a sua "fonte da verdade" para os gráficos e conclusões.
+
+/--------------------------------------------------------------/
+
+Exemplo Prático: ETL para a Análise de PIB e IDH
+Vamos aplicar o plano acima para o seu primeiro questionamento: "Países que têm maior riqueza têm necessariamente maior IDH?"
+
+Stored Procedure: SP_ETL_Analisar_PIB_IDH
+1- Extração (Tabelas de Staging):
+
+tb_staging_gapminder: Contém dados de PIB per capita, expectativa de vida, etc.
+
+tb_staging_indicadores_globais: Contém dados de IDH e outros indicadores sociais.
+
+tb_staging_paises: Tabela de referência para padronizar os nomes dos países.
+
+2- Transformação (Lógica SQL):
+
+União dos Dados: Junte as tabelas de staging usando o nome do país e o ano.
+
+Criação de Grupos: Adicione uma coluna que classifique os países com base no valor do IDH.
+
+Limpeza: Adicione cláusulas WHERE para filtrar anos que não são relevantes ou para excluir países com dados incompletos.
+
+3- Carga (Tabela Final):
+
+Insira o resultado da sua transformação em uma tabela de destino, por exemplo, tb_analise_pib_idh.
+
+Essa tabela final deve conter apenas as colunas necessárias para sua análise: ano, pais, pib_per_capita, idh, componente_renda_idh, componente_educacao_idh, componente_longevidade_idh, e a nova coluna grupo_idh.
