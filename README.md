@@ -40,6 +40,11 @@ Os dados foram retirados da plataforma Kagger e foram baixados os arquivos com a
 
 [Kaggle Metricas globais](https://www.kaggle.com/datasets/prashantdhanuk/global-country-metrics-2025-hdi-gdp-pop-area/data) 
 
+Para criação do Container Docker copie e cole o codigo abaixo em seu terminal:
+docker run -d --name geoEconomyDB -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=m@cacOsPr&gos1844" -e "MSSQL_PID=Developer" -p 1433:1433 -v geoeco_data:/var/opt/mssql --hostname dbgeoeco mcr.microsoft.com/mssql/server:2022-latest
+Para colocar os arquivos referentes aos datasets copie e cole, lembre-se colocar o path de acordo com o clone deste repositorio:
+docker cp "PATH_TO_YOUR_FOLDER_OR_FILE" geoEconomyDB:/var/opt/mssql/data/
+
 ## Fase 1 :triangular_flag_on_post: : Planejamento 
 
 ### Semana 1: Kick-off e Análise Exploratória
@@ -162,5 +167,6 @@ Os dados foram retirados da plataforma Kagger e foram baixados os arquivos com a
   - Apresentação realizada.  
   - Feedback documentado.  
   - Relatório final de insights.
+
 
 
