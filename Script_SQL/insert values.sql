@@ -1,7 +1,7 @@
 --(ISO3, Country, hdi_code, region, hdi_rank_2021, co2_prod_1990, co2_prod_1991, co2_prod_1992, co2_prod_1993, co2_prod_1994, co2_prod_1995, co2_prod_1996, co2_prod_1997, co2_prod_1998, co2_prod_1999, co2_prod_2000, co2_prod_2001, co2_prod_2002, co2_prod_2003, co2_prod_2004,  co2_prod_2005, co2_prod_2006, co2_prod_2007, co2_prod_2008, co2_prod_2009, co2_prod_2010,co2_prod_2011, co2_prod_2012, co2_prod_2013, co2_prod_2014, co2_prod_2015, co2_prod_2016, co2_prod_2017, co2_prod_2018, co2_prod_2019, co2_prod_2020, co2_prod_2021)
 --(ISO3, Country, hdi_code, region, hdi_rank_2021, hdi_1990, hdi_1991, hdi_1992, hdi_1993, hdi_1994, hdi_1995, hdi_1996, hdi_1997, hdi_1998, hdi_1999, hdi_2000, hdi_2001, hdi_2002, hdi_2003, hdi_2004, hdi_2005, hdi_2006, hdi_2007, hdi_2008, hdi_2009, hdi_2010, hdi_2011, hdi_2012, hdi_2013, hdi_2014, hdi_2015, hdi_2016, hdi_2017, hdi_2018, hdi_2019, hdi_2020, hdi_2021)
 --(ISO3, Country, hdi_code, region, hdi_rank_2021, le_1990, le_1991, le_1992, le_1993, le_1994, le_1995, le_1996, le_1997, le_1998, le_1999, le_2000, le_2001, le_2002, le_2003, le_2004, le_2005, le_2006, le_2007, le_2008, le_2009, le_2010, le_2011, le_2012, le_2013, le_2014, le_2015, le_2016, le_2017, le_2018, le_2019, le_2020, le_2021)
-
+--Insert nas tabelas que corresponde da exata mesma forma que o csv
 INSERT INTO GNIPC(ISO3, Country, hdi_code, region, hdi_rank_2021, 
  gnipc_1990, gnipc_1991, gnipc_1992, gnipc_1993, gnipc_1994, 
 gnipc_1995, gnipc_1996, gnipc_1997, gnipc_1998, gnipc_1999, 
@@ -57,7 +57,12 @@ col31, col32, col33, col34, col35,
 col36, col37 FROM #gross )t 
 WHERE rn BETWEEN 2 AND 196;
 
-DROP TABLE DesenvolvimentoHumanoDTSET;
+--Insert Continentes
+INSERT INTO Continentes (NomeContinente)
+SELECT DISTINCT TRY_CAST(col2 AS nvarchar(100))
+FROM #gapminder
+WHERE col2 IS NOT NULL;
+
 select * from #co2; --Tem sua tabela origem chamada EmissoesCO2_Wide
 SELECT * FROM (SELECT ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS RN, * FROM #co2)t WHERE rn > 1
 select * from #gapminder;
@@ -66,4 +71,5 @@ select * from #human; --Tem sua tabela origem DesenvolvimentoHumanoDTSET
 select * from #life; --Tem sua tabela origem Expectativa de vida
 
 select * from ExpectativaVida;
+
 select * from GNIPC EXPECT select * from #gross;
