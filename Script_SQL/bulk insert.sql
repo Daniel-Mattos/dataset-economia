@@ -56,14 +56,12 @@ CREATE TABLE #metric(
     col7 VARCHAR(MAX),
 );
     BULK INSERT #metric
-    FROM '/var/opt/mssql/data/datasets/countries_metric - Sheet1.csv'
-    WITH (
-            FORMAT='CSV',
-        FIELDTERMINATOR = ',',
-        ROWTERMINATOR = '\n',
-        
-        TABLOCK
-    );
+FROM '/var/opt/mssql/data/datasets/countries_metric.csv'
+WITH (
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\r\n',  -- <--- Tente isso (para \r\n)
+    FIRSTROW = 2
+);
 
     
 CREATE TABLE #gapminder(
@@ -235,11 +233,3 @@ BULK INSERT #life
         
         TABLOCK
     );
-
-select * from #co2; --Tem sua tabela origem chamada EmissoesCO2_Wide
-select * from #gapminder;
-select * from #gross;
-select * from #human; --Tem sua tabela origem DesenvolvimentoHumanoDTSET
-select * from #life; --Tem sua tabela origem Expectativa de vida
-
-select * from EmissoesCO2_Wide;
