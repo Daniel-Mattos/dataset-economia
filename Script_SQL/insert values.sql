@@ -63,6 +63,32 @@ SELECT DISTINCT TRY_CAST(col2 AS nvarchar(100))
 FROM #gapminder
 WHERE col2 IS NOT NULL;
 
+--Insert ObservacoesAnuais
+    INSERT INTO ObservacoesAnuaisBasicas (PaisID, Ano, PopulacaoTotal)
+SELECT 
+    p.PaisID AS country_id,
+    CAST(g.col3 AS SMALLINT) AS ano,
+    CAST(REPLACE(m.col2, ',', '') AS BIGINT) AS population
+FROM #gapminder g
+JOIN Paises p 
+    ON p.NomePais = g.col1
+JOIN #metric m
+    ON m.col1 = g.col1
+WHERE 
+    g.col3 IS NOT NULL
+    AND m.col1 IS NOT NULL;
+
+    UPDATE Observacoes 
+    set Observacoes.ExpectativaDeVida = g.col4
+    FROM ObservacoesAnuaisBasicas Observacoes
+    JOIN Paises p ON p.PaisID = Observacoes.PaisID
+    JOIN #gapminder g ON g.col1 = p.NomePais;
+    UPDATE Observacoes 
+    set Observacoes.PIB_PerCapita = m.col4
+    FROM ObservacoesAnuaisBasicas Observacoes
+    JOIN Paises p ON p.PaisID = Observacoes.PaisID
+    JOIN #metric m ON m.col1 = p.NomePais;
+
 --Insert Paises
 ALTER TABLE Paises
 ALTER COLUMN CodigoISO_Alpha3 CHAR(3) NULL;
@@ -239,4 +265,5 @@ select * from #life; --Tem sua tabela origem Expectativa de vida
 select * from ExpectativaVida;
 
 select * from GNIPC EXPECT select * from #gross;
+
 
