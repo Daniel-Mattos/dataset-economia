@@ -59,8 +59,6 @@ Executar o comando de restauração abaixo, ajustando o DISK para o caminho onde
 
 Script de Restauração:
 
-SQL
-
 RESTORE DATABASE GeoMundo
 FROM DISK = 'C:\Seu\Caminho\Completo\backup.bak'
 WITH REPLACE;
@@ -187,6 +185,7 @@ WITH REPLACE;
   - Apresentação realizada.  
   - Feedback documentado.  
   - Relatório final de insights.
+
 
 
 
