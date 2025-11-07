@@ -46,10 +46,24 @@ Para colocar os arquivos referentes aos datasets copie e cole, lembre-se colocar
 docker cp "PATH_TO_YOUR_FOLDER_OR_FILE" geoEconomyDB:/var/opt/mssql/data/
 
 ## Backup
-⚙️ Como restaurar o banco de dados
-Baixe o arquivo .bak disponível neste link Backup.
-Abra o SSMS e conecte-se à sua instância do SQL Server.
-Execute o comando abaixo no painel de consultas, ajustando o caminho conforme o local onde o .bak foi salvo.
+:floppy_disk: Configuração: Restauração do Backup
+Objetivo: Restaurar o banco de dados GeoMundo a partir do arquivo de backup.
+
+Atividades:
+
+Baixar o arquivo .bak disponível no repositório.
+
+Abrir o SSMS e conectar-se à sua instância do SQL Server.
+
+Executar o comando de restauração abaixo, ajustando o DISK para o caminho onde o arquivo .bak foi salvo.
+
+Script de Restauração:
+
+SQL
+
+RESTORE DATABASE GeoMundo
+FROM DISK = 'C:\Seu\Caminho\Completo\backup.bak'
+WITH REPLACE;
 
 ## Fase 1 :triangular_flag_on_post: : Planejamento 
 
