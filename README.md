@@ -45,6 +45,12 @@ docker run -d --name geoEconomyDB -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=m@cac
 Para colocar os arquivos referentes aos datasets copie e cole, lembre-se colocar o path de acordo com o clone deste repositorio:
 docker cp "PATH_TO_YOUR_FOLDER_OR_FILE" geoEconomyDB:/var/opt/mssql/data/
 
+## Backup
+⚙️ Como restaurar o banco de dados
+Baixe o arquivo .bak disponível neste link Backup.
+Abra o SSMS e conecte-se à sua instância do SQL Server.
+Execute o comando abaixo no painel de consultas, ajustando o caminho conforme o local onde o .bak foi salvo.
+
 ## Fase 1 :triangular_flag_on_post: : Planejamento 
 
 ### Semana 1: Kick-off e Análise Exploratória
