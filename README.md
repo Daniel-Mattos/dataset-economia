@@ -9,7 +9,7 @@ Expectativas de resultados:
 - Efeito de desigualdade
 - Classificar países em grupos de acordo com IDH
 -**Podemos prever a expectativa de vida de um país olhando para sua economia e demografia?**
-- Escolaridade e PIB per capita se correlacionam com expectativa de vida]
+- Escolaridade e PIB per capita se correlacionam com expectativa de vida
 - Taxa de mortalidade infantil são levantamentos fortemente negativos
 -**O desenvolvimento econômico inevitavelmente leva à degradação ambiental?**
 - Analisar os estágios iniciais do crescimento econômico e sua correlação com a degradação ambiental
