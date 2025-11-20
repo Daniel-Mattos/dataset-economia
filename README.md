@@ -1,4 +1,4 @@
-# Projeto final: Dataset de Geolocalização e Economia. 
+## Projeto final: Dataset de Geolocalização e Economia. 
 
 ## Objetivo 
 Temos como objetivo do projeto levantar parametros que definem aspectos de um país como PIB per capita, desigualdade social, problemas ambientais. Baseando-se em data sets que promovem dados que nos ajudam a criar os seguintes questionamentos:
@@ -185,6 +185,7 @@ WITH REPLACE;
   - Apresentação realizada.  
   - Feedback documentado.  
   - Relatório final de insights.
+
 
 
 
